@@ -1,6 +1,6 @@
 # num2text
 
-> A dyscalculia-friendly Chrome extension that adds word equivalents beside numbers while keeping the original numbers visible.
+A dyscalculia-friendly Chrome extension that adds word equivalents beside numbers while keeping the original numbers visible.
 
 ![Screenshot](https://i0.wp.com/auliawiradarmo.blog/wp-content/uploads/2026/02/Screenshot-2026-06-28-174232.png?w=893&ssl=1)
 
