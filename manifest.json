@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "num2text",
+    "version": "1.0",
+    "description": "A dyscalculia-friendly extension that annotates numbers with text equivalents.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+        "16": "icons/icon512.png",
+        "32": "icons/icon512.png",
+        "48": "icons/icon512.png",
+        "128": "icons/icon512.png"
+    },
+    "action": {
+        "default_title": "num2text",
+        "default_icon": {
+            "16": "icons/icon512.png",
+            "32": "icons/icon512.png",
+            "48": "icons/icon512.png",
+            "128": "icons/icon512.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ]
+}
